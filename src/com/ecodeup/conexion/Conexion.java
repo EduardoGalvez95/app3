@@ -17,8 +17,8 @@ public class Conexion {
 			dataSource.setDriverClassName("org.postgresql.Driver");
 			dataSource.setUsername("postgres");
 			dataSource.setPassword("admin");
-			dataSource.setUrl("jdbc:postgresql://34.95.240.179:5432/postgres");
-                        //psql "sslmode=verify-ca sslrootcert=server-ca.pem sslcert=client-cert.pem sslkey=client-key.pem hostaddr=34.95.240.179 port=5432 user=postgres dbname=postgres"
+			dataSource.setUrl("jdbc:postgresql://35.198.35.97:5432/postgres");
+                        //psql "sslmode=verify-ca sslrootcert=server-ca.pem sslcert=client-cert.pem sslkey=client-key.pem hostaddr=35.198.35.97 port=5432 user=postgres dbname=postgres"
 		}
 		return dataSource;
 	}
